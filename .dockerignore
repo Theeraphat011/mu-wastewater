@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+.gitignore
+Dockerfile
+README.md
+*.log
+*.test.*
+__tests__/
+coverage/
+.vscode/
+.env
+mock/
+public/mock/

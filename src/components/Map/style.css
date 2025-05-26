@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.container-endpoint {
+    @apply text-sm bg-linear-to-t from-[#0035AD]/90 to-[#002371]/90 text-white pl-4 pr-4 pt-5 pb-5 rounded-md mb-1 border-1 border-[#175EFF];
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.35);
+}
+
+.container-pointer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #0035AD;
+    opacity: 0.8;
+    transform: rotate(45deg);
+    border: 1px solid blue;
+}
+
+.pointer-bottom {
+    bottom: -15px;
+    left: 50%;
+    margin-left: -7px;
+    border-top: none;
+    border-left: none;
+}
+
+.pointer-top {
+    top: -15px;
+    left: 50%;
+    margin-left: -7px;
+    border-bottom: none;
+    border-right: none;
+}
+
+.container-meter {
+    @apply rounded-lg overflow-hidden shadow-md font-sans scale-220 w-auto h-auto bg-transparent;
+}
+
+
+.container-quality {
+    @apply bg-gradient-to-t from-[#0035AD] via-[#2679FF] to-[#2679FF] border-2 border-[#003CC4] px-4 py-2 flex justify-between items-center gap-15 h-13 rounded-md;
+}

@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  mu-app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: mu-app
+    container_name: mu-app
+    environment:
+      - PORT=3001
+    restart: always
+    networks:
+      - mu-network
+
+networks:
+  mu-network:
+    external: true
