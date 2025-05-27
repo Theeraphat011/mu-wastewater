@@ -48,12 +48,12 @@ const DataStation: Station[] = [
 				status_overload: "OFF"
 			},
 		],
-		// LS: [
-		// 	{ label: "LS04", status_start: "OFF", mqqt_tag: "PS1/LS4/STATUS" },
-		// 	{ label: "LS03", status_start: "OFF", mqqt_tag: "PS1/LS3/STATUS" },
-		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS1/LS2/STATUS" },
-		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS1/LS1/STATUS" },
-		// ],
+		LS: [
+			{ label: "LS04", status_start: "OFF", mqqt_tag: "PS1/LS/LS4/STATUS" },
+			{ label: "LS03", status_start: "OFF", mqqt_tag: "PS1/LS/LS3/STATUS" },
+			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS1/LS/LS2/STATUS" },
+			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS1/LS/LS1/STATUS" },
+		],
 	},
 	{
 		id: 2,
@@ -84,12 +84,12 @@ const DataStation: Station[] = [
 				status_overload: "OFF"
 			},
 		],
-		// LS: [
-		// 	{ label: "LS04", status_start: "OFF", mqqt_tag: "PS2/LS4/STATUS" },
-		// 	{ label: "LS03", status_start: "OFF", mqqt_tag: "PS2/LS3/STATUS" },
-		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS2/LS2/STATUS" },
-		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS2/LS1/STATUS" },
-		// ],
+		LS: [
+			{ label: "LS04", status_start: "OFF", mqqt_tag: "PS2/LS/LS4/STATUS" },
+			{ label: "LS03", status_start: "OFF", mqqt_tag: "PS2/LS/LS3/STATUS" },
+			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS2/LS/LS2/STATUS" },
+			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS2/LS/LS1/STATUS" },
+		],
 	},
 	{
 		id: 3,
@@ -113,10 +113,10 @@ const DataStation: Station[] = [
 				status_overload: "OFF"
 			},
 		],
-		// LS: [
-		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS3/LS2/STATUS" },
-		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS3/LS1/STATUS" },
-		// ],
+		LS: [
+			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS3/LS/LS2/STATUS" },
+			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS3/LS/LS1/STATUS" },
+		],
 	},
 	{
 		id: 4,
@@ -141,8 +141,8 @@ const DataStation: Station[] = [
 			},
 		],
 		LS: [
-			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS4/LS2/STATUS" },
-			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS4/LS1/STATUS" },
+			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS4/LS/LS2/STATUS" },
+			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS4/LS/LS1/STATUS" },
 		],
 	},
 	{
