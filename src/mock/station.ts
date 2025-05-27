@@ -48,12 +48,12 @@ const DataStation: Station[] = [
 				status_overload: "OFF"
 			},
 		],
-		LS: [
-			{ label: "LS04", status_start: "OFF", mqqt_tag: "PS1/LS4/STATUS" },
-			{ label: "LS03", status_start: "OFF", mqqt_tag: "PS1/LS3/STATUS" },
-			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS1/LS2/STATUS" },
-			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS1/LS1/STATUS" },
-		],
+		// LS: [
+		// 	{ label: "LS04", status_start: "OFF", mqqt_tag: "PS1/LS4/STATUS" },
+		// 	{ label: "LS03", status_start: "OFF", mqqt_tag: "PS1/LS3/STATUS" },
+		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS1/LS2/STATUS" },
+		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS1/LS1/STATUS" },
+		// ],
 	},
 	{
 		id: 2,
@@ -64,32 +64,32 @@ const DataStation: Station[] = [
 		RS: [
 			{
 				label: "SP-04",
-				tag_status: "PS2/PUMP/SP4/PSTATUS",
-				tag_overload: "PS2/PUMP/SP4/POVERLOAD",
+				tag_status: "PS2/PUMP/SP4/STATUS",
+				tag_overload: "PS2/PUMP/SP4/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 			{
 				label: "SP-05",
-				tag_status: "PS2/PUMP/SP5/PSTATUS",
-				tag_overload: "PS2/PUMP/SP5/POVERLOAD",
+				tag_status: "PS2/PUMP/SP5/STATUS",
+				tag_overload: "PS2/PUMP/SP5/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 			{
 				label: "SP-06",
-				tag_status: "PS2/PUMP/SP6/PSTATUS",
-				tag_overload: "PS2/PUMP/SP6/POVERLOAD",
+				tag_status: "PS2/PUMP/SP6/STATUS",
+				tag_overload: "PS2/PUMP/SP6/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 		],
-		LS: [
-			{ label: "LS04", status_start: "OFF", mqqt_tag: "PS2/LS4/STATUS" },
-			{ label: "LS03", status_start: "OFF", mqqt_tag: "PS2/LS3/STATUS" },
-			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS2/LS2/STATUS" },
-			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS2/LS1/STATUS" },
-		],
+		// LS: [
+		// 	{ label: "LS04", status_start: "OFF", mqqt_tag: "PS2/LS4/STATUS" },
+		// 	{ label: "LS03", status_start: "OFF", mqqt_tag: "PS2/LS3/STATUS" },
+		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS2/LS2/STATUS" },
+		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS2/LS1/STATUS" },
+		// ],
 	},
 	{
 		id: 3,
@@ -100,23 +100,23 @@ const DataStation: Station[] = [
 		RS: [
 			{
 				label: "SPA-01",
-				tag_status: "PS3/PUMP/SPA1/PSTATUS",
-				tag_overload: "PS3/PUMP/SPA1/POVERLOAD",
+				tag_status: "PS3/PUMP/SPA1/STATUS",
+				tag_overload: "PS3/PUMP/SPA1/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 			{
 				label: "SPA-02",
-				tag_status: "PS3/PUMP/SPA2/PSTATUS",
-				tag_overload: "PS3/PUMP/SPA2/POVERLOAD",
+				tag_status: "PS3/PUMP/SPA2/STATUS",
+				tag_overload: "PS3/PUMP/SPA2/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 		],
-		LS: [
-			{ label: "LS02", status_start: "OFF", mqqt_tag: "PS3/LS2/STATUS" },
-			{ label: "LS01", status_start: "OFF", mqqt_tag: "PS3/LS1/STATUS" },
-		],
+		// LS: [
+		// 	{ label: "LS02", status_start: "OFF", mqqt_tag: "PS3/LS2/STATUS" },
+		// 	{ label: "LS01", status_start: "OFF", mqqt_tag: "PS3/LS1/STATUS" },
+		// ],
 	},
 	{
 		id: 4,
@@ -127,15 +127,15 @@ const DataStation: Station[] = [
 		RS: [
 			{
 				label: "SPA-03",
-				tag_status: "PS4/PUMP/SPA3/PSTATUS",
-				tag_overload: "PS4/PUMP/SPA3/POVERLOAD",
+				tag_status: "PS4/PUMP/SPA3/STATUS",
+				tag_overload: "PS4/PUMP/SPA3/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
 			{
 				label: "SPA-04",
-				tag_status: "PS4/PUMP/SPA4/PSTATUS",
-				tag_overload: "PS4/PUMP/SPA4/POVERLOAD",
+				tag_status: "PS4/PUMP/SPA4/STATUS",
+				tag_overload: "PS4/PUMP/SPA4/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
@@ -147,15 +147,15 @@ const DataStation: Station[] = [
 	},
 	{
 		id: 5,
-		station: "CHLORINE CONTACT CHAMBER",
+		station: "CHLORINE CONTACT TANK",
 		x: 0.56,
 		y: 0.585,
 		pointerPosition: "bottom",
 		LS: [
 			{
 				label: "CLP-01",
-				tag_status: "CC1/CHLORINE/CLP1/PSTATUS",
-				tag_overload: "CC1/CHLORINE/CLP1/POVERLOAD",
+				tag_status: "CC1/CHLORINE/CLP1/STATUS",
+				tag_overload: "CC1/CHLORINE/CLP1/OVERLOAD",
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
@@ -169,7 +169,7 @@ const DataStation: Station[] = [
 		pointerPosition: "bottom",
 		LS: [
 			{
-				label: "SCL-02",
+				label: "SC-CLA-02",
 				tag_status: "CLA2/PUMP/SCL2/STATUS",
 				tag_overload: "CLA2/PUMP/SCL2/OVERLOAD",
 				status_start: "OFF",
@@ -185,7 +185,7 @@ const DataStation: Station[] = [
 		pointerPosition: "bottom",
 		LS: [
 			{
-				label: "SCL-01",
+				label: "SC-CLA-01",
 				tag_status: "CLA1/PUMP/SCL1/STATUS",
 				tag_overload: "CLA1/PUMP/SCL1/OVERLOAD",
 				status_start: "OFF",
@@ -195,9 +195,9 @@ const DataStation: Station[] = [
 	},
 	{
 		id: 8,
-		station: "AERATION NO.2",
+		station: "AERATION TANK NO.2",
 		x: 0.18,
-		y: 0.46,
+		y: 0.44,
 		pointerPosition: "bottom",
 		LS: [
 			{
@@ -225,7 +225,7 @@ const DataStation: Station[] = [
 	},
 	{
 		id: 9,
-		station: "AERATION NO.1",
+		station: "AERATION TANK NO.1",
 		x: 0.28,
 		y: 0.56,
 		pointerPosition: "bottom",
@@ -297,23 +297,23 @@ const DataStation: Station[] = [
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
-			{
-				label: "LS1",
-				status_start: "OFF",
-				mqqt_tag: "MU/WASTEWATER/RETANK/LS1/STATUS",
-			},
-			{
-				label: "LS2",
-				status_start: "OFF",
-				mqqt_tag: "MU/WASTEWATER/RETANK/LS2/STATUS",
-			},
+			// {
+			// 	label: "LS1",
+			// 	status_start: "OFF",
+			// 	mqqt_tag: "MU/WASTEWATER/RETANK/LS1/STATUS",
+			// },
+			// {
+			// 	label: "LS2",
+			// 	status_start: "OFF",
+			// 	mqqt_tag: "MU/WASTEWATER/RETANK/LS2/STATUS",
+			// },
 		]
 	},
 	{
 		id: 11,
-		station: "EQUALIZATION TANK NO 1",
-		x: 0.487,
-		y: 0.9,
+		station: "EQUALIZATION TANK",
+		x: 0.52,
+		y: 0.87,
 		pointerPosition: "top",
 		LS: [
 			{
@@ -338,33 +338,33 @@ const DataStation: Station[] = [
 				status_overload: "OFF"
 			},
 		],
-		CT: [
-			{
-				label: "LS5",
-				status_start: "OFF",
-				mqqt_tag: "EQ1/LS5/STATUS",
-			},
-			{
-				label: "LS4",
-				status_start: "OFF",
-				mqqt_tag: "EQ1/LS4/STATUS",
-			},
-			{
-				label: "LS3",
-				status_start: "OFF",
-				mqqt_tag: "EQ1/LS3/STATUS",
-			},
-			{
-				label: "LS2",
-				status_start: "OFF",
-				mqqt_tag: "EQ1/LS2/STATUS",
-			},
-			{
-				label: "LS1",
-				status_start: "OFF",
-				mqqt_tag: "EQ1/LS1/STATUS",
-			},
-		],
+		// CT: [
+		// 	{
+		// 		label: "LS5",
+		// 		status_start: "OFF",
+		// 		mqqt_tag: "EQ1/LS5/STATUS",
+		// 	},
+		// 	{
+		// 		label: "LS4",
+		// 		status_start: "OFF",
+		// 		mqqt_tag: "EQ1/LS4/STATUS",
+		// 	},
+		// 	{
+		// 		label: "LS3",
+		// 		status_start: "OFF",
+		// 		mqqt_tag: "EQ1/LS3/STATUS",
+		// 	},
+		// 	{
+		// 		label: "LS2",
+		// 		status_start: "OFF",
+		// 		mqqt_tag: "EQ1/LS2/STATUS",
+		// 	},
+		// 	{
+		// 		label: "LS1",
+		// 		status_start: "OFF",
+		// 		mqqt_tag: "EQ1/LS1/STATUS",
+		// 	},
+		// ],
 		RS: [
 			{
 				label: "SP-01",
@@ -393,7 +393,7 @@ const DataStation: Station[] = [
 		id: 12,
 		station: "SCREEN AND GRIT CHAMBER",
 		x: 0.76,
-		y: 0.44,
+		y: 0.41,
 		pointerPosition: "bottom",
 		LS: [
 			{
@@ -403,30 +403,6 @@ const DataStation: Station[] = [
 				status_start: "OFF",
 				status_overload: "OFF"
 			},
-		],
-	},
-	{
-		id: 13,
-		station: "SLUDGE STORAGE TANK",
-		x: 0.54,
-		y: 0.43,
-		pointerPosition: "bottom",
-		LS: [
-			{
-				label: "AEJ-10",
-				tag_status: "SLUDGE/PUMP/AEJ10/STATUS",
-				tag_overload: "vSLUDGE/PUMP/AEJ10/OVERLOAD",
-				status_start: "OFF",
-				status_overload: "OFF"
-			},
-			{
-				label: "AEJ-11",
-				tag_status: "SLUDGE/PUMP/AEJ11/STATUS",
-				tag_overload: "vSLUDGE/PUMP/AEJ11/OVERLOAD",
-				status_start: "OFF",
-				status_overload: "OFF"
-			},
-
 		],
 	},
 ];

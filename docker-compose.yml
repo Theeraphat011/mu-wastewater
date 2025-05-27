@@ -10,8 +10,8 @@ services:
       - PORT=3001
     restart: always
     networks:
-      - mu-network
+      - mu-wastewater-infra_default
 
 networks:
-  mu-network:
+  mu-wastewater-infra_default:
     external: true

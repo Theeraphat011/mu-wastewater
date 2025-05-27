@@ -8,7 +8,7 @@ const Mqttconnection = () => {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
-		const client = mqtt.connect("ws://10.41.31.224:8083/mqtt", {
+		const client = mqtt.connect("ws://10.41.31.225:8083/mqtt", {
 			username: "root",
 			password: "Mu123456!",
 			reconnectPeriod: 5000,

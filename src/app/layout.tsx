@@ -27,9 +27,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
 		<html>
 			<body className={`${inter.className}`}>
 				<main className="relative max-h-screen bg-[#001239]">
-					<div className="fixed inset-0 pointer-events-none">
+					<div className="fixed inset-0">
 						<ClientLayout>{children}</ClientLayout>
-						<div className="absolute top-[79%] left-[2.5%] z-10 pointer-events-auto bg-transparent">
+						<div className="absolute top-[79%] left-[2.5%] z-10 bg-transparent">
 							<MenuLink />
 						</div>
 					</div>

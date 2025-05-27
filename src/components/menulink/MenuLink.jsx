@@ -7,9 +7,9 @@ const MenuLink = () => {
 	const pathname = usePathname();
 
 	const menuItems = [
-		{ name: "ดูระบบบำบัดน้ำเสีย", path: "/" },
+		{ name: "ระบบบำบัดน้ำเสีย", path: "/" },
 		{ name: "ข้อมูลย้อนหลัง", path: "/historys" },
-		{ name: "ดูระบบสูบน้ำฝน", path: "/stormwater" },
+		{ name: "ระบบสูบน้ำฝน", path: "/stormwater" },
 	];
 
 	return (
